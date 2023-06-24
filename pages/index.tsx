@@ -29,6 +29,7 @@ export default function Home({ listPost }) {
         <p>----{process.env.ENV_TITLE}----</p>
         <p>----[{process.env.ENV_TITLE}]----</p>
         <p>----[{process.env.NODE_ENV}]----</p>
+        <p>[Nhánh PRODUCTION]</p>
         <p>[Your Self Introduction]</p>
         <p>
           (This is a sample website - you’ll be building a site like this on{" "}
