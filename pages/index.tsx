@@ -14,12 +14,21 @@ export async function getStaticProps() {
 }
 
 export default function Home({ listPost }) {
+  console.log(
+    "🚀 phat.log ~ file: index.tsx:25 ~ process.env.NODE_ENV:",
+    process.env,
+    process.env.NODE_ENV
+  );
+
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
+        <p>----{process.env.ENV_TITLE}----</p>
+        <p>----[{process.env.ENV_TITLE}]----</p>
+        <p>----[{process.env.NODE_ENV}]----</p>
         <p>[Your Self Introduction]</p>
         <p>
           (This is a sample website - you’ll be building a site like this on{" "}

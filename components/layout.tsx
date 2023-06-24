@@ -30,7 +30,7 @@ export default function Layout({ children, home = false }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="https://picsum.photos/1000"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -43,7 +43,7 @@ export default function Layout({ children, home = false }) {
             <Link href="/">
               <Image
                 priority
-                src="/images/profile.jpg"
+                src="https://picsum.photos/1000"
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
